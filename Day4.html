@@ -4,53 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>table</title>
+    <title>Link</title>
     <style type="text/css">
         body{
-            background-color:purple;
+            background-color:rgb(6, 4, 56);
             font-size:larger;
-            font-family: 'Courier New', Courier, monospace;
         }
-        td,th{
-            border: 2px solid black;
+        #shiva{
+            width: 100%;
+            height:100px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        .table{
-            position:relative;
-            top:190px;
-            left:275px;
-            border-collapse:collapse ;
-            background-color: hotpink;
-            border: 3px solid black;
-            width:50%;
-            text-align: left;
-            height:auto;
+        #text{
+            width: 100%;
+            height:100px;
+            color:palevioletred;
+            font-size: xx-large;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
-    </style>
+        a:link{
+            color:floralwhite;
+            text-align: center;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color:palevioletred;
+
+        }
+       </style>
 </head>
 <body>
-<table class="table" >
-    <tr>
-        <th><b>First Name</b></th>
-        <th><b>Second Name</b></th>
-        <th><b>Grade</b></th>
-    </tr>
-    <tr>
-        <td>
-            Shiva
-        </td>
-        <td>Dharshan</td>
-        <td>A</td>
-    </tr>
-    <tr>
-        <td>Sanjay</td>
-        <td>Kumar</td>
-        <td>B</td>
-    </tr>
-    <tr>
-        <td>James</td>
-        <td>Bond</td>
-        <td>C</td>
-    </tr>
-</table>
+    <div id="text" align="center">You can learn about any topics briefly here :)</div>
+    <div id="shiva"><a href="www.wikipedia.com" target="_blank">Click here!</a></div>
+
 </body>
 </html>
